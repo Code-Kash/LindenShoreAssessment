@@ -2,11 +2,11 @@ CXX = g++
 CXXFLAGS = -std=c++20 -Wall -Wextra -O3 -I./include
 LDFLAGS =
 
-SOURCES = src/main.cpp src/pnl_calculator_types.cpp
+SOURCES = src/main.cpp
 OBJECTS = $(SOURCES:.cpp=.o)
 TARGET = pnl_calculator
 
-TEST_SOURCES = tests/test_main.cpp tests/test_types.cpp tests/test_parser.cpp tests/test_engine.cpp tests/test_integration.cpp src/pnl_calculator_types.cpp
+TEST_SOURCES = tests/test_main.cpp tests/test_types.cpp tests/test_parser.cpp tests/test_engine.cpp tests/test_integration.cpp
 TEST_OBJECTS = $(TEST_SOURCES:.cpp=.o)
 TEST_TARGET = pnl_calculator_tests
 
