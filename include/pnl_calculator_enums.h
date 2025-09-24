@@ -5,7 +5,6 @@
 
 namespace pnl::enums
 {
-
     enum class AccountingType : uint8_t
      {
         FIFO = 0,

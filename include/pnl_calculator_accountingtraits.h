@@ -12,7 +12,7 @@ namespace pnl::traits
     struct AccountingTraitsBase
     {
         using timestamp_t = std::uint64_t;
-        using price_t = std::int32_t;
+        using price_t = double;
         using quantity_t = std::uint32_t;
         using symbol_t = std::string;
         using pnl_t = double;
