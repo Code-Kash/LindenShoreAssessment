@@ -1,0 +1,8 @@
+*.o
+
+pnl_calculator
+test_runner
+
+cmake.*
+build/
+.vscode
